@@ -16,7 +16,6 @@
   async function rebuild() {
     if (!articleEl) return;
 
-    // дождаться, пока <svelte:component> реально отрендерится в DOM
     await tick();
 
     cleanup?.();
@@ -25,16 +24,11 @@
     cleanup = setupScrollSpy(articleEl, (id) => (activeId = id));
   }
 
-  // ВАЖНО:
-  // rebuild только когда есть и компонент, и articleEl
-  // (иначе на первом заходе после / toc будет пустым)
   $: if (Component && articleEl) {
     void rebuild();
   }
 
-  // Если title меняется без смены Component — тоже перестроим (не обязательно, но безопасно)
   $: if (title && Component && articleEl) {
-    // title сменится вместе с Component, но пусть будет
     void rebuild();
   }
 
