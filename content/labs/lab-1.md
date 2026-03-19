@@ -81,7 +81,7 @@
 
 **3.5 UML: Use-case діаграма**
 
-<img src="/IO-35_appRECORD-SakhnoMargaryta-FIOT-2026/static/assets/labs/lab-1/usecase.png" alt="Use-case діаграма" width="700">
+![Use-case діаграма](/assets/labs/lab-1/usecase.png)
 
 *Рис. 1 – Use-case діаграма вебзастосунку DrumSpace.*
 
