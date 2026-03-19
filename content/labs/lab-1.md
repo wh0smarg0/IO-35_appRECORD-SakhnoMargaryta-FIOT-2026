@@ -8,10 +8,10 @@
 
 ### 1.3 Посилання:
 
-* Репозиторій власного веб-застосунку (GitHub): посилання
-* Власний веб-застосунок (Жива сторінка): посилання
-* Репозиторій звітного HTML-документа (GitHub): посилання
-* Звітний HTML-документ (Жива сторінка): 
+* Репозиторій власного веб-застосунку (GitHub): [посилання](https://github.com/wh0smarg0/IO-35_webLAB-SakhnoMargaryta-FIOT-2026.git)
+* Власний веб-застосунок (Жива сторінка): [посилання](https://wh0smarg0.github.io/IO-35_webLAB-SakhnoMargaryta-FIOT-2026/lab1/?#home)
+* Репозиторій звітного HTML-документа (GitHub): [посилання](https://github.com/wh0smarg0/IO-35_appRECORD-SakhnoMargaryta-FIOT-2026.git)
+* Звітний HTML-документ (Жива сторінка): [посилання](https://wh0smarg0.github.io/IO-35_appRECORD-SakhnoMargaryta-FIOT-2026/lab/lab-1)
 
 ---
 
