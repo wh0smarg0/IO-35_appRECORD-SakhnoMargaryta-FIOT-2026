@@ -81,7 +81,7 @@
 
 **3.5 UML: Use-case діаграма**
 
-![Use-case діаграма](/assets/labs/lab-1/usecasediagram.png)
+![Use-case діаграма](/assets/labs/lab-1/usecase.png)
 *Рис. 1 – Use-case діаграма вебзастосунку DrumSpace.*
 
 **3.6 UML: Таблиця Use-case**
@@ -108,7 +108,7 @@
 
 **3.8 Діаграма компонентів**
 
-![Діаграма компонентів](/assets/labs/lab-1/components.png)
+![Діаграма компонентів](/assets/labs/lab-1/stop1.png)
 *Рис. 3 – Компонентна діаграма клієнтської частини та планованих інтеграцій.*
 
 ---
