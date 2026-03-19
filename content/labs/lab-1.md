@@ -81,7 +81,8 @@
 
 **3.5 UML: Use-case діаграма**
 
-![Use-case діаграма](/assets/labs/lab-1/usecase.png)
+<img src="/assets/labs/lab-1/usecase.png" alt="Use-case діаграма" width="700">
+
 *Рис. 1 – Use-case діаграма вебзастосунку DrumSpace.*
 
 **3.6 UML: Таблиця Use-case**
