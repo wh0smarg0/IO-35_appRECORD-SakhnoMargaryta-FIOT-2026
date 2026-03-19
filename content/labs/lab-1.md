@@ -81,7 +81,7 @@
 
 **3.5 UML: Use-case діаграма**
 
-<img src="/assets/labs/lab-1/usecase.png" alt="Use-case діаграма" width="700">
+<img src="/IO-35_appRECORD-SakhnoMargaryta-FIOT-2026/static/assets/labs/lab-1/usecase.png" alt="Use-case діаграма" width="700">
 
 *Рис. 1 – Use-case діаграма вебзастосунку DrumSpace.*
 
@@ -98,6 +98,7 @@
 **3.7 ER-модель даних**
 
 ![ER діаграма](/assets/labs/lab-1/erdiagram.png)
+
 *Рис. 2 – ER-діаграма (логічна модель даних).*
 
 **Пояснення сутностей:**
@@ -110,6 +111,7 @@
 **3.8 Діаграма компонентів**
 
 ![Діаграма компонентів](/assets/labs/lab-1/components.png)
+
 *Рис. 3 – Компонентна діаграма клієнтської частини та планованих інтеграцій.*
 
 ---
