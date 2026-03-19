@@ -36,8 +36,6 @@ type Example = {
 
 ## Скріншоти
 
-![Скрін 1](/assets/labs/lab-1/screen-1.png)
-
 ---
 
 ## Висновки
