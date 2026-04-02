@@ -284,19 +284,23 @@ code {
   border-collapse: collapse; 
   margin: 18px 0; 
   font-size: 14px; 
-  display: block;
-  overflow-x: auto;
-  max-width: 100%;
+  display: block; 
+  overflow-x: auto; 
 }
 
 .md th, .md td { 
   border: 1px solid var(--paper-border); 
   padding: 12px; 
   text-align: left;
+  white-space: normal;
+  word-wrap: break-word;
+  min-width: 100px;
 }
 
-.md thead th { 
-  background: rgba(255, 255, 255, 0.05); 
+.md th:first-child, 
+.md td:first-child {
+  min-width: 50px;
+  width: 5%;
 }
 
 /* Зображення в Markdown */
