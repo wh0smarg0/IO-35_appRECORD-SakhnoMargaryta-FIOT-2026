@@ -279,9 +279,25 @@ code {
 }
 
 /* Таблиці */
-.md table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 14px; }
-.md th, .md td { border: 1px solid var(--paper-border); padding: 12px; }
-.md thead th { background: rgba(255, 255, 255, 0.05); }
+.md table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  margin: 18px 0; 
+  font-size: 14px; 
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.md th, .md td { 
+  border: 1px solid var(--paper-border); 
+  padding: 12px; 
+  text-align: left;
+}
+
+.md thead th { 
+  background: rgba(255, 255, 255, 0.05); 
+}
 
 /* Зображення в Markdown */
 .md img {
