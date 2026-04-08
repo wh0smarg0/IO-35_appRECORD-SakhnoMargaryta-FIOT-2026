@@ -346,6 +346,7 @@ app.post('/auth/google', async (req, res) => {
         "passwordConfirm": "password123"
     }
     ```
+
 ![1](/assets/labs/lab-3/1.png)
 * *Очікуваний результат:* Статус `201 Created`. У відповіді буде `userId` та посилання для підтвердження email.
 
@@ -362,6 +363,7 @@ app.post('/auth/google', async (req, res) => {
         "password": "password123"
     }
     ```
+
 ![3](/assets/labs/lab-3/3.png)
 * *Очікуваний результат:* Статус `200 OK`. Отриаємо `accessToken` та `refreshToken`. **Обов'язково скопіювати `accessToken` для наступних запитів!**
 
@@ -393,6 +395,7 @@ app.post('/auth/google', async (req, res) => {
         "name": "Маргарита"
     }
     ```
+
 ![7](/assets/labs/lab-3/7.png)
 * *Очікуваний результат:* Статус `200 OK` та оновлене ім'я.
 
@@ -407,6 +410,7 @@ app.post('/auth/google', async (req, res) => {
         "newPassword": "new_super_password"
     }
     ```
+
 ![8](/assets/labs/lab-3/8.png)
 * *Очікуваний результат:* Статус `200 OK` ("Пароль змінено!").
 
@@ -429,6 +433,7 @@ app.post('/auth/google', async (req, res) => {
         "refreshToken": "ТВІЙ_ДОВГИЙ_REFRESH_TOKEN_З_ЛОГІНУ"
     }
     ```
+
 ![10](/assets/labs/lab-3/10.png)
 * *Очікуваний результат:* Статус `200 OK` і новий свіжий `accessToken`.
 
@@ -459,6 +464,7 @@ app.post('/auth/google', async (req, res) => {
         "email": "margo.test@gmail.com"
     }
     ```
+
 ![13](/assets/labs/lab-3/13.png)
 * *Очікуваний результат:* Статус `200 OK`. Сервер видасть спеціальний `resetToken`. Скопіюй його!
 
@@ -473,6 +479,7 @@ app.post('/auth/google', async (req, res) => {
         "newPassword": "recovered_password"
     }
     ```
+
 ![14](/assets/labs/lab-3/14.png)
 *(Заміни `id: 1` на свій реальний ID).*
 
@@ -495,6 +502,7 @@ app.post('/auth/google', async (req, res) => {
         "token": "fake_or_real_google_token"
     }
     ```
+
 ![17](/assets/labs/lab-3/17.png)
 * *Очікуваний результат:* Оскільки в Postman важко отримати реальний токен від Google, ти отримаєш статуc `401 Unauthorized` ("Помилка авторизації через Google"). Це нормально і доводить, що захист працює!
 
